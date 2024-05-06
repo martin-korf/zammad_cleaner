@@ -19,9 +19,10 @@ Optionally, you can specify a cut-off date for ticket deletion using the --cut-o
 
 ## Description
 
-Zammad Cleaner interacts with a Zammad helpdesk API to retrieve a list of tickets and delete those that were closed before a specified cut-off date. It uses the provided API token and base URL to authenticate and make API requests.
+Zammad Cleaner interacts with a Zammad API to retrieve a list of closed tickets and delete those that were closed before a specified cut-off date. It uses the provided API token and base URL to authenticate and make API requests.
+
 
 ## Requirements
 
-API token from your Zammad helpdesk provider
-Access to the Zammad helpdesk API with permission to delete tickets.
+API token from your Zammad instance
+Access to the Zammad instance API with permission to delete tickets.
